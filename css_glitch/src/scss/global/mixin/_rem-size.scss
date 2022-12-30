@@ -1,0 +1,6 @@
+$baseFontsize: 16;
+
+// 1rem = rem(16)
+@function rem($px) {
+  @return calc($px / $baseFontsize * 1rem);
+}

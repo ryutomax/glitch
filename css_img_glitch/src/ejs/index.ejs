@@ -1,0 +1,48 @@
+<% var info={ title : "" , desc : "" }; %>
+  <!-- 画像相対パス(dist参照) -->
+  <% const path=["../assets/images/"]%>
+    <%- include("./include/_head",{meta: info}) -%>
+      <%- include("./include/_header") -%>
+        <main class="l-main">
+          <!-- <div class="glitch" style="background-image: url(https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1920&q=80);">
+            <div class="channel r"></div>
+            <div class="channel g"></div>
+            <div class="channel b"></div>
+          </div> -->
+          <div class="glitch" style="background-image: url(./assets/images/img2.jpg);">
+            <!-- <div class="channel r"></div>
+            <div class="channel g"></div>
+            <div class="channel b"></div> -->
+            <ul>
+              <li>sample01</li>
+              <li>sample02</li>
+              <li>sample03</li>
+              <li>sample04</li>
+            </ul>
+            <div class="channel r">
+              <ul>
+                <li>sample01</li>
+                <li>sample02</li>
+                <li>sample03</li>
+                <li>sample04</li>
+              </ul>
+            </div>
+            <div class="channel g">
+              <ul>
+                <li>sample01</li>
+                <li>sample02</li>
+                <li>sample03</li>
+                <li>sample04</li>
+              </ul>
+            </div>
+            <div class="channel b">
+              <ul>
+                <li>sample01</li>
+                <li>sample02</li>
+                <li>sample03</li>
+                <li>sample04</li>
+              </ul>
+            </div>
+          </div>
+        </main>
+        <%- include("./include/_footer") -%>

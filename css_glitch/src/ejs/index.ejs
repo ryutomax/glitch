@@ -1,0 +1,41 @@
+<% var info={ title : "" , desc : "" }; %>
+  <!-- 画像相対パス(dist参照) -->
+  <% const path=["../assets/images/"]%>
+    <%- include("./include/_head",{meta: info}) -%>
+      <%- include("./include/_header") -%>
+        <main class="l-main">
+          <img src="<%= path %>" alt="" />
+
+          <body class="demo-1 loading">
+            <main>
+              <div class="glitch">
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+                <div class="glitch__img"></div>
+              </div>
+              <div class="content">
+                <div class="content__title--wrapper">
+                  <h2 class="content__title02">SAMPLE1</h2>
+                  <h2 class="content__title02">SAMPLE1</h2>
+                  <h2 class="content__title02">SAMPLE1</h2>
+                </div>
+                <div class="content__title--wrapper">
+                  <h2 class="content__title02">SAMPLE2</h2>
+                  <h2 class="content__title02">SAMPLE2</h2>
+                  <h2 class="content__title02">SAMPLE2</h2>
+                </div>
+                <div class="content__title--wrapper">
+                  <h2 class="content__title03">SAMPLE3</h2>
+                  <h2 class="content__title03">SAMPLE3</h2>
+                  <h2 class="content__title03">SAMPLE3</h2>
+                </div>
+                <!-- <p class="content__text">Evening was in the wood, louring with storm. A time of drought had sucked the weedy pool  and baked the channels; birds had done with song.</p> -->
+              </div>
+            </main>
+          </body>
+        </main>
+        <%- include("./include/_footer") -%>

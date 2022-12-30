@@ -1,0 +1,61 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, div, span, img, a, table, tr, th, td, small, button, time, figure {
+    border: 0;
+    // font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li, dd {
+    list-style-type: none;
+}
+
+header, footer, nav, section, article, aside, figure, figcaption {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+a,
+button {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+//フォーム用
+input {
+    outline: none;
+}
+
+textarea {
+    display: block;
+    outline: none;
+}
+
+select {
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+}
+// /* reset.css end
